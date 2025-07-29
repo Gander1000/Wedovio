@@ -1,0 +1,60 @@
+.Heder {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo_sp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bitmap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+  padding-top: 30px;
+  color: white;
+  gap: 150px;
+}
+
+.contai_title{
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    p{
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    h1{
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    span{
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    a{
+        color: #FFD723;
+        font-size: 16px;
+    }
+}

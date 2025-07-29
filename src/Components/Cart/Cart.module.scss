@@ -1,0 +1,49 @@
+.Cart{
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    h1{
+        color: #4D533C;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+
+    p{
+        font-size: 24px;
+        color: #4D533C;
+    }
+
+    span{
+        color: #21384299;
+        font-size: 16px;
+        line-height: 1.4;
+        padding: 0 30px;
+        padding-left: 0;
+    }
+
+    a{
+        color: #D4D6D4;
+        font-size: 16px;
+        transition: 0.3s;
+        padding-top: 20px;
+
+        &:hover{
+            color: #FFD723;
+        }
+    }
+}
